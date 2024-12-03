@@ -8,7 +8,7 @@ class TaskService {
 
   final repoOwner = 'shubh7727am';
   final repoName = 'mockserver';
-  final accessToken = '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';
+  final accessToken = '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';
 
 
   // fetching tasks from the db.json
