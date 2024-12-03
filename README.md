@@ -1,9 +1,6 @@
 CheckMate By- Shubham choudhary
 =========
 
-
-copy test access token - github_pat_11BNMXJ4I0qvUT1ZFSFCjY_ndTGMD--Fzm8i1GyhsNOYqRzvb0Z9oCmsA10f1UpeJLV8UOH6QOZUPZ72HoZN
-
 CheckMate is a friendly to-do app designed to streamline tasks and enhance productivity. It offers both online and offline persistence, with powerful filtering and theming options to suit your workflow.
 
 Features
