@@ -62,7 +62,8 @@ Installation and Setup
 1. Clone the repository
 2. Navigate to the project directory
 3. Install dependencies
-4. Run the app
+4. Setup acesss token in lib/services/services.dart - refer to the comment near access token variable.
+5. Run the app
    
 Usage
 -----
