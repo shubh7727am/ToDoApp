@@ -8,6 +8,7 @@ class TaskService {
 
   final repoOwner = 'shubh7727am';
   final repoName = 'mockserver';
+  final accessToken = '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';
 
 
   // fetching tasks from the db.json
@@ -19,7 +20,7 @@ class TaskService {
     final response = await http.get(
       Uri.parse(url),
       headers: {
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer $accessToken',
         'Cache-Control': 'no-cache', // Bypass client-side cache
       },
     );
@@ -59,7 +60,7 @@ class TaskService {
     final response = await http.get(
       Uri.parse(url),
       headers: {
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer $accessToken',
       },
     );
 
@@ -70,7 +71,7 @@ class TaskService {
       final updateResponse = await http.put(
         Uri.parse(url),
         headers: {
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer $accessToken',
         },
         body: jsonEncode({
           'message': 'Update $username.json',
