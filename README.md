@@ -9,9 +9,9 @@ CheckMate is a friendly to-do app designed to streamline tasks and enhance produ
 App Screen shots
 --------
 <p align="center">
-  <img src="images/image1.png" width="30%" />
-  <img src="images/image2.png" width="30%" />
-  <img src="images/image3.png" width="30%" />
+  <img src="App_ss/1.png" width="30%" />
+  <img src="App_ss/2.png" width="30%" />
+  <img src="App_ss/3.png" width="30%" />
 </p>
 
 Features
