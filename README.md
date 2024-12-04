@@ -1,3 +1,6 @@
+![App Icon](android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
+
 CheckMate By- Shubham choudhary
 =========
 
