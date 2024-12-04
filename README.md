@@ -6,7 +6,7 @@ CheckMate By- Shubham choudhary
 
 CheckMate is a friendly to-do app designed to streamline tasks and enhance productivity. It offers both online and offline persistence, with powerful filtering and theming options to suit your workflow.
 
-App Screen shots
+App Screenshots
 --------
 <p align="center">
   <img src="App_ss/1.png" width="30%" />
