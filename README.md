@@ -1,21 +1,21 @@
 ![App Icon](android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 
-
-CheckMate By- Shubham choudhary
-=========
+# CheckMate By- Shubham choudhary
 
 CheckMate is a friendly to-do app designed to streamline tasks and enhance productivity. It offers both online and offline persistence, with powerful filtering and theming options to suit your workflow.
 
-App Screenshots
---------
+## App Screenshots
+
 <p align="center">
   <img src="App_ss/1.png" width="30%" />
   <img src="App_ss/2.png" width="30%" />
   <img src="App_ss/3.png" width="30%" />
 </p>
 
-Features
---------
+## Adding section for testing sourcetree
+
+## Features
+
 - **Task Management**: Add, edit, and delete tasks effortlessly.
 - **Data Persistence**:
   - **Online**: Store and fetch tasks using GitHub as a REST API database.
@@ -26,8 +26,7 @@ Features
   - Switch between **Light Mode** and **Dark Mode** for better user experience.
 - **State Management**: Powered by **Riverpod** for efficient and reactive state management.
 
-App Structure
--------------
+## App Structure
 
 The app follows the **MVVM (Model-View-ViewModel)** architecture. Below is the folder structure:
 
@@ -58,8 +57,7 @@ lib/
 └── main.dart                     # App entry point
 ```
 
-Technology Stack
-----------------
+## Technology Stack
 
 - **Flutter**: Cross-platform UI development.
 - **MVVM Architecture**: Ensures separation of concerns and modularity.
@@ -67,17 +65,15 @@ Technology Stack
 - **GitHub REST API**: Used for online task storage and retrieval.
 - **SharedPreferences**: Handles local, offline task persistence.
 
-Installation and Setup
-----------------------
+## Installation and Setup
 
 1. Clone the repository
 2. Navigate to the project directory
 3. Install dependencies
 4. Configure test acesss token in lib/services/services.dart - refer to the comment near access token variable.
 5. Run the app
-   
-Usage
------
+
+## Usage
 
 - **Online Mode**: Ensure an internet connection to store and retrieve tasks using GitHub's REST API.
 - **Offline Mode**: Tasks are saved locally using SharedPreferences when offline.
@@ -85,7 +81,6 @@ Usage
 - **Switch Themes**: Toggle between **Light** and **Dark** mode in the settings.
 - **State Management**: The app uses Riverpod to provide a seamless reactive experience.
 
-
-
 # ToDoAPP_Checkmate
+
 This repo contains the submission to the flutter intern assignment.
