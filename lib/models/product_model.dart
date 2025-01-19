@@ -26,4 +26,16 @@ class Product {
       imageUrl: json['imageUrl'],
     );
   }
+  // Create a copy of Product with updated fields
+  Product copyWith({
+    String? id,
+    double? price,
+    String? imageUrl,
+  }) {
+    return Product(
+      id: id ?? this.id,
+      price: price ?? this.price,
+      imageUrl: imageUrl ?? this.imageUrl,
+    );
+  }
 } 
