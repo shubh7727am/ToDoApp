@@ -3,11 +3,7 @@ class Product {
   final double price;
   final String imageUrl;
 
-  Product({
-    required this.id,
-    required this.price, 
-    required this.imageUrl
-  });
+  Product({required this.id, required this.price, required this.imageUrl});
 
   // Convert Product to JSON
   Map<String, dynamic> toJson() {
@@ -38,4 +34,5 @@ class Product {
       imageUrl: imageUrl ?? this.imageUrl,
     );
   }
-} 
+  //This function to copyu with
+}
